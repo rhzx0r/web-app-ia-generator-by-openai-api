@@ -3,6 +3,7 @@ import { Configuration, OpenAIApi } from 'openai'
 import Spinner from './components/Spinner'
 import './App.css'
 
+
 function App() {
 
   const [prompt, setPrompt] = useState('')
